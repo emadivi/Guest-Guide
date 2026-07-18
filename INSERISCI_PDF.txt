@@ -1,0 +1,5 @@
+Inserisci qui la Guest Guide definitiva rinominandola:
+
+guest-guide.pdf
+
+Non modificare il nome del file nelle versioni future.
