@@ -1,49 +1,144 @@
-<section class="hero">
+<!doctype html>
+<html lang="it">
 
-    <p class="eyebrow">CILENTO COLLECTION</p>
+<head>
+  <meta charset="utf-8">
 
-    <h1>Benvenuti nel Cilento</h1>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <p class="intro">
-        Scegli la lingua della Guest Guide.
-    </p>
+  <meta name="theme-color" content="#f4efe6">
 
-</section>
+  <meta
+    name="description"
+    content="Guest Guide ufficiale di Cilento Collection"
+  >
 
+  <title>Cilento Collection · Guest Guide</title>
 
-<section class="language-grid">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    <a class="language-card"
-       href="guest-guide-it.pdf"
-       target="_blank">
+<body>
 
-        <div class="flag">🇮🇹</div>
+  <main class="page">
 
-        <h2>Italiano</h2>
+    <!-- INTESTAZIONE -->
+    <section class="hero">
 
-        <p>Apri la guida</p>
+      <p class="eyebrow">
+        CILENTO COLLECTION
+      </p>
 
-    </a>
+      <h1>
+        Benvenuti nel Cilento
+      </h1>
 
+      <p class="intro">
+        Scegli la lingua della Guest Guide.<br>
+        Choose your Guest Guide language.
+      </p>
 
-    <a class="language-card"
-       href="guest-guide-en.pdf"
-       target="_blank">
-
-        <div class="flag">🇬🇧</div>
-
-        <h2>English</h2>
-
-        <p>Open Guest Guide</p>
-
-    </a>
-
-</section>
+    </section>
 
 
-<footer>
+    <!-- SCELTA DELLA LINGUA -->
+    <section
+      class="actions"
+      aria-label="Scegli la lingua della Guest Guide"
+    >
 
-    Le guide vengono aggiornate regolarmente.<br>
-    Troverai sempre qui la versione più recente.
+      <!-- ITALIANO -->
+      <a
+        class="card"
+        href="guest-guide-it.pdf"
+        target="_blank"
+        rel="noopener"
+        lang="it"
+        aria-label="Apri la Guest Guide in italiano"
+      >
 
-</footer>
+        <span
+          class="icon"
+          aria-hidden="true"
+        >
+          🇮🇹
+        </span>
+
+        <span>
+
+          <strong>
+            Italiano
+          </strong>
+
+          <small>
+            Apri la Guest Guide
+          </small>
+
+        </span>
+
+      </a>
+
+
+      <!-- ENGLISH -->
+      <a
+        class="card"
+        href="guest-guide-en.pdf"
+        target="_blank"
+        rel="noopener"
+        lang="en"
+        aria-label="Open the Guest Guide in English"
+      >
+
+        <span
+          class="icon"
+          aria-hidden="true"
+        >
+          🇬🇧
+        </span>
+
+        <span>
+
+          <strong>
+            English
+          </strong>
+
+          <small>
+            Open the Guest Guide
+          </small>
+
+        </span>
+
+      </a>
+
+    </section>
+
+
+    <!-- NOTA -->
+    <section class="note">
+
+      <h2>
+        Sempre aggiornata
+      </h2>
+
+      <p>
+        Da questa pagina potrai consultare sempre la versione più recente
+        della Guest Guide.
+      </p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+      <p>
+        Cilento Collection · Pisciotta
+      </p>
+
+    </footer>
+
+  </main>
+
+</body>
+
+</html>
